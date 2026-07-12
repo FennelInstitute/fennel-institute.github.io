@@ -203,3 +203,9 @@ margin:10px 0;
 }
 
 }
+.logo{
+    display:block;
+    width:320px;
+    max-width:90%;
+    margin:0 auto 20px;
+}
