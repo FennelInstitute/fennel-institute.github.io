@@ -279,3 +279,59 @@ margin:10px 0;
 </div>
 
 </div>
+
+/* ===== 事業内容カード ===== */
+
+.business-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:25px;
+    justify-content:center;
+    margin-top:40px;
+}
+
+
+.business-card{
+
+    width:280px;
+
+    background:white;
+
+    border-radius:10px;
+
+    padding:25px;
+
+    box-shadow:0 3px 10px rgba(0,0,0,0.15);
+
+    text-align:center;
+
+}
+
+
+.business-card h3{
+
+    color:#0b5fa5;
+
+    margin-bottom:15px;
+
+}
+
+
+.business-card p{
+
+    line-height:1.8;
+
+}
+
+
+/* スマホ対応 */
+
+@media(max-width:600px){
+
+.business-card{
+
+    width:90%;
+
+}
+
+}
